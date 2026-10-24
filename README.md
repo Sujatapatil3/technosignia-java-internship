@@ -1,74 +1,135 @@
-# TechnoSignia Java Internship
+# TechnoSignia Internship — Daily Tasks
 
-## Day 5 – Git and GitHub
+This repository documents my learning journey and practical assignments completed during my internship at **TechnoSignia**. It contains daily exercises, code examples, and hands-on tasks designed to strengthen my programming and web development skills.
 
-### Overview
-This repository is part of my Day 5 internship task at TechnoSignia. 
-The objective is to use Git and GitHub for version control, organize previous assignments, upload learning documents, and maintain a repository with a README explaining the work completed.
+## 🎯 Internship Objectives
 
-This repository contains my work from **Days 1 to 4**, organized and documented as part of the Day 5 task.
+- Strengthen programming and web development fundamentals.
+- Practice concepts through hands-on assignments.
+- Build interactive and user-friendly webpages.
+- Understand JavaScript and asynchronous operations.
+- Learn version control and maintain code using Git and GitHub.
 
-## Work Included
+## 📅 Daily Progress
 
-### Day 1 – Full Stack Development Fundamentals
-- Introduction to full-stack development.
-- Full-stack application architecture diagram.
-- Frontend, backend, database, and request-response flow.
-- Learning documents in PDF format.
+### Day 1 — Introduction and Environment Setup
 
-### Day 2 – Java Programming Basics
-- Even or odd number checker.
-- Factorial calculation.
-- Finding the largest of three numbers.
-- Multiplication table.
-- Prime number checker.
-- Reversing a number.
+- Internship orientation and task familiarization.
+- Introduction to the development environment and workflow.
+- Initial setup for completing programming assignments.
 
-### Day 3 – Object-Oriented Programming
-- Classes and objects.
-- Student class implementation.
-- Constructors and encapsulation.
-- Private fields, getters, and setters.
-- Displaying student details.
+### Day 2 — Programming Fundamentals
 
-### Day 4 – Java Programming Concepts
-- Arrays and strings.
-- ArrayList and HashMap.
-- Searching and processing student records.
-- Java Streams and file handling.
-- Student record processing exercises.
+- Practiced basic programming concepts.
+- Worked on understanding variables, data, and logical operations.
+- Developed problem-solving skills through exercises.
 
-### Day 5 – Git and GitHub
-- Initialized a local Git repository.
-- Created a `.gitignore` file to exclude generated files and IDE configuration.
-- Staged and committed the internship source code and learning documents.
-- Organized the repository to upload work from Days 1–4.
-- Created this README to explain the repository and its contents.
-- Prepared the project for publishing on GitHub.
+### Day 3 — Programming Practice
 
-## Technologies and Tools
-- Java
-- Object-Oriented Programming (OOP)
-- Java Collections Framework
-- Java Streams
-- File Handling
-- Git
-- GitHub
-- Spring Tool Suite (STS)
+- Practiced programming exercises and basic logic.
+- Improved understanding of control flow and reusable code.
+- Strengthened coding fundamentals.
 
-## Repository Structure
-- `src/taskDay1/` – Day 1 PDF learning documents.
-- `src/taskDay2/` – Basic Java programming exercises.
-- `src/taskDay3/` – OOP practice.
-- `src/taskDay4/` – Collections and student record processing.
-- `src/studentManagement/` – Student management program.
-- `src/studentFileHandlingday4/` – File handling program and sample records.
+### Day 4 — Web Development Practice
 
-## How to Run
-1. Clone or download this repository.
-2. Import the project into Spring Tool Suite (STS) or another Java IDE.
-3. Ensure a compatible JDK is installed.
-4. Run the required Java class containing the `main()` method.
+- Explored the fundamentals of web development.
+- Practiced writing and organizing webpage code.
+- Learned how webpage elements work together.
 
-## Purpose
-The purpose of this repository is to document my internship assignments, demonstrate practical Java learning, and apply Git and GitHub version control practices to manage and share my work.
+### Day 5 — Practical Exercises
+
+- Continued hands-on development practice.
+- Reinforced previously learned programming and web concepts.
+- Prepared for HTML, CSS, and JavaScript assignments.
+
+### Day 6 — HTML Fundamentals
+
+**Topics:** HTML structure, headings, paragraphs, links, images, lists, tables, forms, and input fields.
+
+**Tasks completed:**
+
+- Created a personal profile webpage.
+- Built a student registration form.
+- Created a student records table.
+
+### Day 7 — CSS Fundamentals and Layouts
+
+**Topics:** CSS selectors, colors, typography, box model, spacing, and Flexbox.
+
+**Tasks completed:**
+
+- Styled the personal profile webpage.
+- Practiced margins, padding, borders, and rounded corners.
+- Created a navigation layout using Flexbox.
+- Improved the page layout for smaller screens.
+
+### Day 8 — JavaScript Fundamentals
+
+**Topics:** Variables, data types, operators, DOM manipulation, conditions, loops, and functions.
+
+**Tasks completed:**
+
+- Created an interactive webpage using JavaScript.
+- Practiced data types and arithmetic, comparison, assignment, and logical operators.
+- Used button-click events and DOM manipulation.
+- Built a student marks and grade calculator.
+
+### Day 9 — Advanced JavaScript
+
+**Topics:** DOM manipulation, event handling, array methods, ES6 features, Promises, asynchronous JavaScript, `async/await`, and the Fetch API.
+
+**Tasks completed:**
+
+- Built an interactive Student Directory webpage.
+- Added student records using form submission.
+- Implemented student searching and course filtering.
+- Used `map()`, `filter()`, and `reduce()`.
+- Practiced arrow functions, destructuring, and the spread operator.
+- Fetched sample user data from an external API.
+- Displayed dynamic student records and statistics.
+
+## 🛠️ Technologies and Tools
+
+- **HTML5** — Webpage structure
+- **CSS3** — Styling and responsive layouts
+- **JavaScript (ES6+)** — Interactivity and application logic
+- **DOM API** — Dynamic webpage updates
+- **Fetch API** — Retrieving external data
+- **Git** — Version control
+- **GitHub** — Source code hosting and progress tracking
+- **Visual Studio Code / development editor** — Code editing
+
+## 📂 Repository Structure
+
+```text
+TechnoSigniaInternship/
+├── src/
+│   ├── day6-HTML/
+│   ├── day7-CSS/
+│   ├── day8-JSBasics/
+│   └── day9 -Advance JS/
+├── README.md
+└── Other internship files
+```
+
+*The structure above highlights the folders currently used for Days 6–9. Additional folders and files may be present in the repository.*
+
+## 📚 Key Learning Outcomes
+
+- Developed a stronger understanding of HTML and CSS.
+- Practiced creating structured, styled webpages and forms.
+- Learned JavaScript fundamentals and DOM manipulation.
+- Built interactive webpages using events and functions.
+- Practiced searching and filtering data using array methods.
+- Explored asynchronous programming and API requests.
+- Learned to track and publish code changes using Git and GitHub.
+
+## 🚀 Ongoing Progress
+
+This repository will continue to document my internship assignments, practical exercises, and learning progress as I work through additional tasks.
+
+---
+
+**Internship:** TechnoSignia
+**Repository:** Daily Internship Tasks
+**Focus:** Programming, Web Development, and Practical Learning
