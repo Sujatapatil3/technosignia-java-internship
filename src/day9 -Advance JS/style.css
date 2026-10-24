@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff5f8;
+    color: #352b32;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 28px 16px;
+    background: #f5cddd;
+}
+
+header h1 {
+    margin: 0;
+    color: #702c4c;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+main {
+    width: min(900px, 92%);
+    margin: 24px auto;
+}
+
+.panel {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #f0d7e1;
+    border-radius: 14px;
+}
+
+h2 {
+    color: #873d61;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 5px;
+    border: 1px solid #d7b8c5;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 16px;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #a84270;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #813154;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.student-card {
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid #edc9d9;
+    overflow-wrap: anywhere;
+}
+
+.student-card h3 {
+    color: #873d61;
+    margin-top: 0;
+}
+
+#formMessage,
+#apiMessage {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+    color: #702c4c;
+}

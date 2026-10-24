@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9 - Interactive Student Directory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>🌷 Student Directory</h1>
+        <p>Explore, search and manage student records.</p>
+    </header>
+
+    <main>
+        <section class="panel">
+            <h2>Add a Student</h2>
+
+            <form id="studentForm">
+                <label for="studentName">Student Name</label>
+                <input type="text" id="studentName"
+                       placeholder="Enter student name" required>
+
+                <label for="studentCourse">Course</label>
+                <select id="studentCourse" required>
+                    <option value="">Select a course</option>
+                    <option value="Java">Java</option>
+                    <option value="HTML">HTML</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                </select>
+
+                <label for="studentMarks">Marks (0–100)</label>
+                <input type="number" id="studentMarks"
+                       min="0" max="100" required>
+
+                <button type="submit">Add Student</button>
+            </form>
+            <p id="formMessage" role="status"></p>
+        </section>
+
+        <section class="panel">
+            <h2>Find Students</h2>
+
+            <label for="searchInput">Search by name</label>
+            <input type="search" id="searchInput"
+                   placeholder="Type a student's name">
+
+            <label for="courseFilter">Filter by course</label>
+            <select id="courseFilter">
+                <option value="All">All Courses</option>
+                <option value="Java">Java</option>
+                <option value="HTML">HTML</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select>
+
+            <button type="button" id="loadButton">
+                Load Students from API
+            </button>
+            <p id="apiMessage" role="status"></p>
+        </section>
+
+        <section class="panel">
+            <h2>Student Statistics</h2>
+            <p id="studentCount">Students: 0</p>
+            <p id="averageMarks">Average Marks: 0</p>
+        </section>
+
+        <section>
+            <h2>Student Records</h2>
+            <div id="studentList" class="student-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Day 9 JavaScript Practice ✨</p>
+    </footer>
+</body>
+</html>

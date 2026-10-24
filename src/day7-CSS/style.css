@@ -1,0 +1,235 @@
+
+/* ===== 1. Overall page styling ===== */
+
+body {
+    background-color: #FFF7FB;
+    color: #493747;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 30px;
+}
+
+/* ===== 2. Main heading ===== */
+
+h1 {
+    color: #9D174D;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #8B5CF6;
+    font-size: 30px;
+}
+
+h3 {
+    color: #6B5265;
+    font-size: 22px;
+}
+
+/* ===== 3. Header and navigation ===== */
+
+header {
+    background-color: #FCE7F3;
+    text-align: center;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+nav a {
+    color: #9D174D;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #7C3AED;
+    text-decoration: underline;
+}
+
+/* ===== 4. Sections ===== */
+
+section,
+aside {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #F3D5E5;
+    border-radius: 16px;
+}
+
+/* ===== 5. Skills list ===== */
+
+li {
+    padding: 4px;
+}
+
+/* ===== 6. Learning journey table ===== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+th {
+    background-color: #EDE9FE;
+    color: #5B21B6;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #D8C7E8;
+    text-align: left;
+}
+
+/* ===== 7. Contact form ===== */
+
+input,
+textarea {
+    width: 90%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #D8B4D8;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #9D174D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7C3AED;
+}
+
+/* ===== 8. Footer ===== */
+
+footer {
+    background-color: #F3E8FF;
+    color: #493747;
+    text-align: center;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+/* ===== 9. Smaller screens ===== */
+
+@media (max-width: 600px) {
+    body {
+        margin: 12px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+}
+
+
+
+
+/* Task 2: Box Model Practice */
+
+* {
+    box-sizing: border-box;
+}
+
+section,
+aside {
+    margin: 30px 0;
+    padding: 28px;
+    border: 2px solid #F3D5E5;
+    border-radius: 20px;
+}
+
+header,
+footer {
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    padding: 14px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    margin: 8px 5px;
+    padding: 14px 22px;
+}
+/* /////////////////////////////// */
+
+
+/* Task 3: Flexbox Layout */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #F3D5E5;
+    border-radius: 20px;
+}
+
+/* Keep the page content readable */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Keep the contact form organized */
+
+form {
+    max-width: 600px;
+}
+
+/* Improve small-screen navigation */
+
+@media (max-width: 600px) {
+    nav {
+        gap: 8px;
+    }
+
+    nav a {
+        margin: 2px;
+        padding: 8px 10px;
+    }
+}
