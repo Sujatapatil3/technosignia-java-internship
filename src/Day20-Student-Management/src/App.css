@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #263248;
+}
+
+.app-container {
+    min-height: 100vh;
+}
+
+.header {
+    background: #243b67;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #dce5f5;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.form-section,
+.table-section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #243b67;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccd3df;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    background: #315caa;
+    color: white;
+    border: none;
+    padding: 11px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #244781;
+}
+
+.cancel-button {
+    background: #6b7280;
+}
+
+.delete-button {
+    background: #d64545;
+    margin-left: 8px;
+}
+
+.delete-button:hover {
+    background: #b52f2f;
+}
+
+.student-count {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.empty-message {
+    color: #6b7280;
+    padding: 20px 0;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 13px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+    background: #edf2fa;
+    color: #243b67;
+}
+
+@media (max-width: 650px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+}
