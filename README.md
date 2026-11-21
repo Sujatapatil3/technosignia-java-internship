@@ -1,135 +1,190 @@
-# TechnoSignia Internship — Daily Tasks
+# TechnoSignia Internship – Learning & Practical Tasks
 
-This repository documents my learning journey and practical assignments completed during my internship at **TechnoSignia**. It contains daily exercises, code examples, and hands-on tasks designed to strengthen my programming and web development skills.
+Welcome to my TechnoSignia Internship repository! This repository documents my learning journey, daily assignments, practical exercises, and mini projects completed as part of the internship.
+
+The internship provides hands-on exposure to programming, frontend development, backend development, databases, and application development.
 
 ## 🎯 Internship Objectives
 
-- Strengthen programming and web development fundamentals.
-- Practice concepts through hands-on assignments.
-- Build interactive and user-friendly webpages.
-- Understand JavaScript and asynchronous operations.
-- Learn version control and maintain code using Git and GitHub.
+- Strengthen programming and problem-solving skills.
+- Understand core Java and object-oriented programming concepts.
+- Learn frontend development using HTML, CSS, JavaScript, and React.
+- Understand database concepts and SQL operations.
+- Explore backend development using Java and Spring Boot.
+- Build REST APIs and connect applications with databases.
+- Practice API testing and documentation.
+- Gain practical experience with Git and GitHub.
 
-## 📅 Daily Progress
+## 📅 Daily Internship Progress
 
-### Day 1 — Introduction and Environment Setup
+### Phase 1 – Programming Fundamentals
 
-- Internship orientation and task familiarization.
-- Introduction to the development environment and workflow.
-- Initial setup for completing programming assignments.
+**Days 1–5: Java Programming Fundamentals**
+- Practiced programming fundamentals and problem-solving.
+- Explored object-oriented programming concepts.
+- Worked with collections, exception handling, file handling, and Java Streams.
+- Completed practical coding exercises.
 
-### Day 2 — Programming Fundamentals
+### Phase 2 – Frontend Development
 
-- Practiced basic programming concepts.
-- Worked on understanding variables, data, and logical operations.
-- Developed problem-solving skills through exercises.
+**Day 6 – HTML Fundamentals**
+- HTML structure and semantic elements.
+- Forms, tables, lists, links, and images.
+- Created profile and student registration webpages.
 
-### Day 3 — Programming Practice
+**Day 7 – CSS Fundamentals**
+- CSS selectors, colors, typography, and box model.
+- Flexbox and webpage layouts.
+- Responsive design fundamentals.
 
-- Practiced programming exercises and basic logic.
-- Improved understanding of control flow and reusable code.
-- Strengthened coding fundamentals.
+**Day 8 – JavaScript Fundamentals**
+- Variables, data types, operators, conditions, and loops.
+- Functions and DOM manipulation.
+- Events and interactive webpages.
+- Student marks and grade calculator.
 
-### Day 4 — Web Development Practice
+**Day 9 – Advanced JavaScript**
+- Array methods: map(), filter(), and reduce().
+- ES6 features and asynchronous JavaScript.
+- Promises, async/await, and Fetch API.
+- Created an interactive Student Directory.
 
-- Explored the fundamentals of web development.
-- Practiced writing and organizing webpage code.
-- Learned how webpage elements work together.
+**Day 10 – Practical Development Exercises**
+- Continued hands-on programming and development practice.
+- Worked on assigned exercises and strengthened previously learned concepts.
 
-### Day 5 — Practical Exercises
+**Day 11 – React Components, State, and Forms**
+- Introduction to React components.
+- State management fundamentals.
+- Handling forms and user input.
 
-- Continued hands-on development practice.
-- Reinforced previously learned programming and web concepts.
-- Prepared for HTML, CSS, and JavaScript assignments.
+**Day 12 – React Routing**
+- Introduction to React Router.
+- Navigation between application pages.
+- Routing fundamentals in React applications.
 
-### Day 6 — HTML Fundamentals
+### Phase 3 – Database and Backend Development
 
-**Topics:** HTML structure, headings, paragraphs, links, images, lists, tables, forms, and input fields.
+**Day 13 – Database Fundamentals**
+- Introduction to database concepts.
+- MySQL fundamentals.
+- Entity Relationship Diagrams (ERD).
 
-**Tasks completed:**
+**Day 14 – SQL Fundamentals**
+- Introduction to SQL.
+- Database and table operations.
+- SQL queries and basic data manipulation.
 
-- Created a personal profile webpage.
-- Built a student registration form.
-- Created a student records table.
+**Day 15 – Advanced SQL Topics**
+- Advanced SQL concepts.
+- Querying and manipulating relational data.
+- Practical SQL exercises.
 
-### Day 7 — CSS Fundamentals and Layouts
+**Day 16 – Backend Development Introduction**
+- Introduction to backend development.
+- Understanding client-server architecture.
+- Backend application fundamentals.
 
-**Topics:** CSS selectors, colors, typography, box model, spacing, and Flexbox.
+**Day 17 – Spring Boot Fundamentals**
+- Introduction to Spring Boot.
+- Understanding Spring Boot project structure.
+- Fundamentals of building backend applications.
 
-**Tasks completed:**
+**Day 18 – Database Connectivity & CRUD API**
+- Database connectivity concepts.
+- CRUD operations: Create, Read, Update, and Delete.
+- Building REST API functionality.
 
-- Styled the personal profile webpage.
-- Practiced margins, padding, borders, and rounded corners.
-- Created a navigation layout using Flexbox.
-- Improved the page layout for smaller screens.
+**Day 19 – API Testing & Documentation**
+- Introduction to API testing.
+- Testing REST API endpoints.
+- Understanding API documentation.
 
-### Day 8 — JavaScript Fundamentals
+### Phase 4 – Mini Project
 
-**Topics:** Variables, data types, operators, DOM manipulation, conditions, loops, and functions.
+**Day 20 – Foundation Mini Project: Student Management Application**
 
-**Tasks completed:**
+Developed a Student Management mini project to apply frontend and backend development concepts.
 
-- Created an interactive webpage using JavaScript.
-- Practiced data types and arithmetic, comparison, assignment, and logical operators.
-- Used button-click events and DOM manipulation.
-- Built a student marks and grade calculator.
+Key areas:
+- React application structure.
+- Component-based development.
+- Student management application interface.
+- API integration fundamentals.
+- Student service implementation.
 
-### Day 9 — Advanced JavaScript
+Project folder: `src/Day20-Student-Management/`
 
-**Topics:** DOM manipulation, event handling, array methods, ES6 features, Promises, asynchronous JavaScript, `async/await`, and the Fetch API.
+---
 
-**Tasks completed:**
+## 🛠️ Technologies & Tools
 
-- Built an interactive Student Directory webpage.
-- Added student records using form submission.
-- Implemented student searching and course filtering.
-- Used `map()`, `filter()`, and `reduce()`.
-- Practiced arrow functions, destructuring, and the spread operator.
-- Fetched sample user data from an external API.
-- Displayed dynamic student records and statistics.
-
-## 🛠️ Technologies and Tools
-
-- **HTML5** — Webpage structure
-- **CSS3** — Styling and responsive layouts
-- **JavaScript (ES6+)** — Interactivity and application logic
-- **DOM API** — Dynamic webpage updates
-- **Fetch API** — Retrieving external data
-- **Git** — Version control
-- **GitHub** — Source code hosting and progress tracking
-- **Visual Studio Code / development editor** — Code editing
+| Technology | Purpose |
+|---|---|
+| Java | Programming fundamentals and backend development |
+| HTML5 | Webpage structure |
+| CSS3 | Styling and responsive layouts |
+| JavaScript | Application logic and interactivity |
+| React.js | Frontend development |
+| SQL | Database queries and operations |
+| MySQL | Relational database management |
+| Spring Boot | Backend application development |
+| REST APIs | Client-server communication |
+| Postman | API testing |
+| Git | Version control |
+| GitHub | Repository hosting and project tracking |
 
 ## 📂 Repository Structure
 
 ```text
-TechnoSigniaInternship/
+technosignia-java-internship/
+│
 ├── src/
 │   ├── day6-HTML/
 │   ├── day7-CSS/
 │   ├── day8-JSBasics/
-│   └── day9 -Advance JS/
+│   ├── day9 -Advance JS/
+│   ├── day10/
+│   ├── Day11-React-Components-State-and-Forms/
+│   ├── Day12-React-Routing/
+│   ├── Day13-Database Fundamentals/
+│   ├── Day 14 —SQL Fundamentals/
+│   ├── Day 15 —Advanced SQL Topics/
+│   ├── Day 16 --Backend Development Introduction/
+│   ├── Day 17 —Spring Boot Fundamentals/
+│   ├── Day 18 —Database Connectivity & CRUD API/
+│   ├── Day 19 —API Testing & Documentation/
+│   └── Day20-Student-Management/
+│
 ├── README.md
-└── Other internship files
+└── .gitignore
 ```
 
-*The structure above highlights the folders currently used for Days 6–9. Additional folders and files may be present in the repository.*
+
 
 ## 📚 Key Learning Outcomes
 
-- Developed a stronger understanding of HTML and CSS.
-- Practiced creating structured, styled webpages and forms.
-- Learned JavaScript fundamentals and DOM manipulation.
-- Built interactive webpages using events and functions.
-- Practiced searching and filtering data using array methods.
-- Explored asynchronous programming and API requests.
-- Learned to track and publish code changes using Git and GitHub.
+Through these assignments and practical exercises, I have gained experience in:
 
-## 🚀 Ongoing Progress
+- Java programming and object-oriented concepts.
+- Writing structured and reusable code.
+- Developing interactive webpages.
+- Building component-based React applications.
+- Working with relational databases and SQL.
+- Understanding backend development using Spring Boot.
+- Creating and testing REST API functionality.
+- Understanding database connectivity and CRUD operations.
+- Using Git and GitHub to maintain and publish projects.
 
-This repository will continue to document my internship assignments, practical exercises, and learning progress as I work through additional tasks.
+## 🚀 Ongoing Learning & Progress
+
+This repository will continue to grow as I work on additional internship assignments and major project development.
+
+Each task represents an opportunity to strengthen my technical knowledge and apply concepts through practical implementation.
 
 ---
 
-**Internship:** TechnoSignia
-**Repository:** Daily Internship Tasks
-**Focus:** Programming, Web Development, and Practical Learning
+**Internship:** TechnoSignia  
+
+**Focus Areas:** Java | Frontend Development | React | SQL | MySQL | Spring Boot | REST APIs
+
